@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+body {
+    background-color: #f8ebe9;
+}
+
+.container {
+    width: 1010px;
+    height: 645px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+}
+
+.first-section {
+    background-image: url(./img/background.jpg);
+    width: 370px;
+    height: 645px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+    padding-top: 35px;
+    gap: 5px;
+}
+
+.link-arrow {
+    opacity: 0.5;
+    font-weight: 500;
+    font-size: 13px;
+    color: black;
+}
+
+.link-arrow:hover {
+    opacity: 1;
+}
+
+.arrow--link {
+    opacity: 0.5;
+    width: 17px;
+    height: 17px;
+}
+
+.arrow--link:hover {
+    opacity: 1;
+}
+
+.ul-list__navigation {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 35px;
+    margin-left: 320px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 130px;
+}
+
+li {
+    list-style: none;
+}
+
+.link-header {
+    color: #000;
+    opacity: 0.5;
+}
+
+.link-header:hover {
+    opacity: 1;
+}
+
+.link-mid {
+    opacity: 1;
+}
+
+.box-jerry__henderson {
+    margin-left: 95px;
+}
+
+.h2-text__jerry--henderson {
+    font-size: 50px;
+    font-weight: normal;
+    width: 300px;
+}
+
+.line__info {
+    width: 100px;
+    height: 5px;
+    background-color: #333333;
+    display: inline-block;
+}
+
+.first__text--jerry_henderson {
+    display: flex;
+    align-items: center;
+}
+
+.box-line {
+    margin-top: 65px;
+    position: absolute;
+    margin-left: 290px;
+}
+
+.jerry-henderson {
+    font-weight: 600;
+}
+
+.mini-box-text {
+    display: flex;
+    margin-top: 30px;
+    gap: 5px;
+    margin-bottom: 55px;
+}
+
+.box--all__photos {
+    margin-left: 95px;
+    display: flex;
+}
+
+.view__all--photos {
+    color: #333333;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.link--all__photos {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    gap: 5px;
+}
+
+.info--all__photos {
+    width: 250px;
+    line-height: 28px;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
